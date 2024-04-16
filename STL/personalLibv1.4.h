@@ -4,8 +4,6 @@ Personal c++ school lib
 Version 1.5
 */
 
-
-
 #pragma once
 #include <iostream>
 #include <iomanip>
@@ -14,7 +12,9 @@ Version 1.5
 #include <cmath>
 #include <fstream>				//file IO
 #include <vector>
-#include <Windows.h>			//sleep command
+#include <Windows.h>
+#include <exception>
+#include <stdexcept>
 using namespace std;
 
 int endProgram() {
