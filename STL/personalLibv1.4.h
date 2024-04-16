@@ -15,6 +15,7 @@ Version 1.5
 #include <Windows.h>
 #include <exception>
 #include <stdexcept>
+#include <cctype>
 using namespace std;
 
 int endProgram() {
