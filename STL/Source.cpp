@@ -21,7 +21,7 @@ char character(char start, int offset) {
         result = 'A' + ((start - 'A' + offset) % 26);
     }
     else {
-        // If the character is not a letter, return it unchanged
+
         result = start;
     }
 
